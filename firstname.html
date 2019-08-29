@@ -5,96 +5,190 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Curriculum Vitae with only html</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1 align="center">My Curriculum Vitae</h1><br><br>
+<body >
+    <main class="main">
+        <div class="cv">
+            <h1 class="cv__primary-heading">
+                My Curriculum Vitae
+            </h1>
+            <div class="cv__header">
+                <img src="https://res.cloudinary.com/degagxnh9/image/upload/v1566757341/IMG-20190603-WA0022_2_pwf0jm.jpg"
+                    alt="My picture" class="cv__img">
+                <h2 class="cv__secondary-heading">
+                    Adedoyin Silas
+                </h2>
+            </div>
+            <p class="description container">I develop softwares with users at the center of attention</p>
+            <div class="cv__row">
+                <div class="cv__card container responsive">
+                    <h3 class="cv__tertiary-heading">
+                        Contact Details
+                    </h3>
 
-    <div align="center">
-        <div>
-            <img src="https://res.cloudinary.com/degagxnh9/image/upload/r_30/v1566757341/IMG-20190603-WA0022_2_pwf0jm.jpg"
-                alt="My picture" width="200px">
-            <h2>Adedoyin silas</h2>
+                    <p class="cv__card-item">
+                        <img src="/images/pin.png" alt="">
+                        <span>Fut minna main campus, gidan kwano, Niger, Minna. </span>
+                    </p>
+                    <p class="cv__card-item">
+                        <img src="/images/call.png" alt="">
+                        <span>+234 811 080 3512</span>
+                    </p>
+                    <p class="cv__card-item">
+                        <img src="/images/email.png" alt="">
+                        <span>silasadedoyin@gmail.com</span>
+                    </p>
+                </div>
+                <div class="cv__card container responsive">
+                    <h3 class="cv__tertiary-heading">
+                        Social media
+                    </h3>
+
+                    <p class="cv__card-item">
+                        <img src="/images/facebook.png" alt="">
+                        <span>facebook.com/silasadedoyin</span>
+                    </p>
+                    <p class="cv__card-item">
+                        <img src="/images/twitter.png" alt="">
+                        <span>twitter.com/silasadedoyin</span>
+                    </p>
+                    <p class="cv__card-item">
+                        <img src="/images/linkedin.png" alt="">
+                        <span>linkedin.com/in/silasadedoyin</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="cv__row attr">
+                <div class="responsive">
+                    <h3 class="cv__tertiary-heading">
+                        Experience
+                    </h3>
+                    
+                    <ul>
+                        <li>
+                            <img src="/images/check.png" alt="">
+                            <span>
+                                <b>Easyasitis</b>, Minna, Niger — Full stack developer <br>
+                                <small>AUGUST 2017 - PRESENT</small>
+                            </span>
+                        </li>
+                        <li>
+                            <img src="/images/check.png" alt="">
+                            <span>
+                                <b>Natterbase</b>, Remote — Front end developer <br>
+                                <small>JULY 2018 - SEPTEMBER 2018</small>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="responsive">
+                    <h3 class="cv__tertiary-heading">
+                        Skills
+                    </h3>
+
+                    <ul>
+                        <li>
+                            <img src="/images/check.png" alt="">
+                            Javascript and Vue.js
+                        </li>
+                        <li>
+                            <img src="/images/check.png" alt="">
+                            PHP and Laravel
+                        </li>
+                        <li>
+                            <img src="/images/check.png" alt="">
+                            UI/UX design
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="cv__row attr">
+                <div class="responsive">
+                    <h3 class="cv__tertiary-heading">
+                        Education
+                    </h3>
+
+                    <ul>
+                        <li>
+                            <img src="/images/check.png" alt="">
+                            <div>
+                                <b>Whole person academy</b> , Kubwa, Abuja, Nigeria — <small>
+                                    <i>Primary school
+                                        leaving certificate</i>
+                                </small><br>
+                                <small>SEPTEMBER 2001 - JULY 2010</small>
+                                <br><br>
+                            </div>
+                        </li>
+                        <li>
+                           <img src="/images/check.png" alt="">
+                            <div>
+                                <b>Smith international baptist academy</b>, Ogbomosho, Oyo, Nigeria —
+                                <small><i>Junior school</i></small><br>
+                                <small>SEPTEMBER 2010 - JULY 2012</small>
+                                <br><br>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="/images/check.png" alt="">
+                            <div>
+                                <b>Government secondary school</b>, kubwa , Kubwa, Abuja, Nigeria —
+                                <small><i>Secondary school</i></small><br>
+                                <small>SEPTEMBER 2012 - JULY 2015</small>
+                                <br><br>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="/images/check.png" alt="">
+                            <div>
+                                <b>Federal University of Technology Minna</b>, Minna, Niger Nigeria —
+                                <small><i>University</i></small><br>
+                                <small>NOVEMBER 2015 - PRESENT</small>
+                                <br><br>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="responsive">
+                    <h3 class="cv__tertiary-heading">
+                        Awards
+                    </h3>
+
+                    <ul>
+                        <li>
+                            <img src="/images/check.png" alt="">
+                            <span>Winner 2018 Icreate Skills competition web design category</span>
+                        </li>
+                        <li>
+                            <img src="/images/check.png" alt="">
+                            <span>Second runner up, How to start a startup, Futminna by ventures platform</span>
+                        </li>
+                        <li>
+                            <img src="/images/check.png" alt="">
+                            <span>Nominee 2018 Futminna programmer of the year.(SUG AWARDS FUTMINNA)</span>
+                        </li>
+                    </ul>
+
+                    <h3 class="cv__tertiary-heading" style="margin-top: 25px;">
+                        Languages
+                    </h3>
+                    <ul>
+                        <li>
+                            <img src="/images/check.png" alt="">
+                            <span>English</span>
+                        </li>
+                        <li>
+                            <img src="/images/check.png" alt="">
+                            <span>Youruba &#x1F619;</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    
-        <div>
-            Fut minna main campus, gidan kwano, Niger, Minna. <br>
-            <b>+234 811 080 3512</b><br>
-            <b>Silasadedoyin@gmail.com</b>
-        </div>
-    </div>
-
-    <table align="center" width="80%">
-        <tr>
-            <td width="65%">
-                <br><br><br>
-                <b>EXPERIENCE</b><br><br>
-                <b>Easyasitis</b>, Minna, Niger — Full stack developer <br>
-                MONTH 2017 - PRESENT <br><br>
-                <b>Natterbase</b>, Remote — Front end developer <br>
-                July 2018 - September 2018
-            </td>
-            <td width="35%">
-                <br><br><br>
-                <b>SKILLS</b><br><br>
-                <ul>
-                    <li>Javascript and Vue.js</li>
-                    <li>PHP and Laravel</li>
-                    <li>Python</li>
-                    <li>C++</li>
-                    <li>UI/UX design</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <br><br>
-                <div>
-                    <b>EDUCATION</b>
-                    <br><br>
-                </div>
-                <div>
-                    <b>Whole person academy</b> , Kubwa, Abuja, Nigeria — <i>Primary school leaving certificate</i><br>
-                    <small>September 2001 - July 2010</small>
-                    <br><br>
-                </div>
-                <div>
-                    <b>Smith international baptist academy</b>, Ogbomosho, Oyo, Nigeria — <i>Junior school</i><br>
-                    <small>September 2010 - July 2012</small>
-                    <br><br>
-                </div>
-                <div>
-                    <b>Government secondary school</b>, kubwa , Kubwa, Abuja, Nigeria — <i>Secondary school</i><br>
-                    <small>September 2012 - July 2015</small>
-                    <br><br>
-                </div>
-                <div>
-                    <b>Federal University of Technology Minna</b>, Minna, Niger Nigeria — <i>University</i><br>
-                    <small>November 2015 till date</small>
-                    <br><br>
-                </div>
-
-            </td>
-            <td>
-                <br><br>
-                <b>AWARDS</b><br><br>
-                <ul>
-                    <li>
-                        Winner 2018 Icreate Skills competition web design category
-                    </li>
-                    <li>
-                        Second runner up, How to start a startup, Futminna by ventures platform
-                    </li>
-                    <li>
-                        Nominee 2018 Futminna programmer of the year.(SUG AWARDS FUTMINNA)
-                    </li>
-                </ul>
-                
-                <br>
-                <b>LANGUAGES</b><br><br>
-                English, Yoruba
-            </td>
-        </tr>
-    </table>
-    <br><br>
+    </main>
 </body>
 </html>
